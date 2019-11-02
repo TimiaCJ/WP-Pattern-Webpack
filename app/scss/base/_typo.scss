@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo:400,700|Lato:400,700,900|Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Capriola&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+
+// Font size for responsive
+html {
+
+    font-size: $font-size-small;
+
+    @media (min-width: $breakpoint-medium) {
+        font-size: $font-size-medium;
+    }
+
+    @media (min-width: $breakpoint-large) {
+        font-size: $font-size-large;
+    }
+    
+    @media (min-width: $breakpoint-medium) {
+        font-size: $font-size-medium;
+    }
+
+    @media (min-width: $breakpoint-large) {
+        font-size: $font-size-large;
+    }
+}
+
+// General text
+body, a {
+
+    font-family: $font-family-label;
+    color: $color-text;
+    font-size: $font-size-small;
+
+    @media (min-width: $breakpoint-medium) {
+        font-size: $font-size-medium;
+    }
+
+    @media (min-width: $breakpoint-large) {
+        font-size: $font-size-large;
+    }
+}
+
+// Titles
+h1,
+h2,
+h3,
+h4 {
+    font-family: $font-family-title;
+    margin: inherit;
+    font-weight: bold;
+}
